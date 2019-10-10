@@ -51,7 +51,7 @@ def groupYear(year):
         else: large +=1
     return small, medium, large
 
-enter_y = input("Please enter the year from " )
+enter_y = input("Enter the year for timeline of the number of planets discovered per year grouped by size:  " )
 trip = groupYear(int(enter_y))
 
 print ("The year has {} small planets {} medium planets and {} large planets".format(trip[0], trip[1], trip[2]))
