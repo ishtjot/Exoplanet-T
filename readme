@@ -1,0 +1,12 @@
+The code language I have chosen is python with version 3 as it looked more like data retrieval task. I am not very specific to any language.
+ The code containing file is named as 'query.py' and it can be run by any ide if your device has python 3 installed .
+ I specifically used pycharm for this assignment.
+ Please remember to install pip packages and import requests before running this assignment.
+ Git contains my virtual environment named as venv if required to run query.py
+ If you are trying to run it from docker file, Please keep the docker file named 'my_new_docker_build' and 'query' in same folder.
+ I created docker image using windows , but it can be done by using any operating system so download docker in your device and run it .
+ The commands I used are: docker build -f my_new_docker_build .
+ After creating image a number is generated something like '1a6fefkm5346mg' , so this number is image number and it contains entire libraries and whatever is required to run python code.
+  Then run the command docker run [image_name]
+  The code will run with first 2 tasks dont require any user input , third require the year. so enter the year to further see the output.
+  I am not able to create kubern.yaml file.. Working on it and will upload if I am able to create it.
